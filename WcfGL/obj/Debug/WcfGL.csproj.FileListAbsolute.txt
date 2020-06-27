@@ -1,0 +1,14 @@
+C:\Users\liban\source\repos\GL\WcfGL\bin\WcfGL.dll.config
+C:\Users\liban\source\repos\GL\WcfGL\bin\WcfGL.dll
+C:\Users\liban\source\repos\GL\WcfGL\bin\WcfGL.pdb
+C:\Users\liban\source\repos\GL\WcfGL\obj\Debug\WcfGL.csproj.CoreCompileInputs.cache
+C:\Users\liban\source\repos\GL\WcfGL\obj\Debug\WcfGL.dll
+C:\Users\liban\source\repos\GL\WcfGL\obj\Debug\WcfGL.pdb
+C:\Users\liban\source\repos\GL\WcfGL\bin\EntityFramework.dll
+C:\Users\liban\source\repos\GL\WcfGL\bin\EntityFramework.SqlServer.dll
+C:\Users\liban\source\repos\GL\WcfGL\bin\EntityFramework.xml
+C:\Users\liban\source\repos\GL\WcfGL\bin\EntityFramework.SqlServer.xml
+C:\Users\liban\source\repos\GL\WcfGL\bin\fr\EntityFramework.resources.dll
+C:\Users\liban\source\repos\GL\WcfGL\bin\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\liban\source\repos\GL\WcfGL\obj\Debug\WcfGL.csproj.CopyComplete
+C:\Users\liban\source\repos\GL\WcfGL\obj\Debug\WcfGL.csprojAssemblyReference.cache

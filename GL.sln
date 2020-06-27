@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebGL", "WebGL\WebGL.csproj", "{B60A55E2-D824-476F-9CAC-0079A2256F4F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95090528-63D2-426B-9CA8-1B4A5CA83A74} = {95090528-63D2-426B-9CA8-1B4A5CA83A74}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfGL", "WcfGL\WcfGL.csproj", "{95090528-63D2-426B-9CA8-1B4A5CA83A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGL", "ApiGL\ApiGL.csproj", "{0AECE18B-1BA6-47B4-8A82-2B53A24BCB83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B60A55E2-D824-476F-9CAC-0079A2256F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60A55E2-D824-476F-9CAC-0079A2256F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60A55E2-D824-476F-9CAC-0079A2256F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60A55E2-D824-476F-9CAC-0079A2256F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95090528-63D2-426B-9CA8-1B4A5CA83A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95090528-63D2-426B-9CA8-1B4A5CA83A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95090528-63D2-426B-9CA8-1B4A5CA83A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95090528-63D2-426B-9CA8-1B4A5CA83A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AECE18B-1BA6-47B4-8A82-2B53A24BCB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AECE18B-1BA6-47B4-8A82-2B53A24BCB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AECE18B-1BA6-47B4-8A82-2B53A24BCB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AECE18B-1BA6-47B4-8A82-2B53A24BCB83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B663FC44-A132-49E5-876B-D27C2AFA3DF6}
+	EndGlobalSection
+EndGlobal

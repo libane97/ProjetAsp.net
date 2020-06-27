@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bdGLModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Personne">
+    <Key>
+      <PropertyRef Name="IdP" />
+    </Key>
+    <Property Name="IdP" Type="Int32" Nullable="false" />
+    <Property Name="Nom" Type="String" MaxLength="180" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Prenom" Type="String" MaxLength="180" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="180" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateNaissance" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="bdGLEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Personnes" EntityType="Self.Personne" />
+  </EntityContainer>
+</Schema>
