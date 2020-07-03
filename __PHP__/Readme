@@ -1,0 +1,33 @@
+- Creer un base nomme "m1gl_aspnet_mysql"
+- Changer le port de mysql si different de 3308 dans le fichier DBConfig.php
+
+- Pour faire des tests
+    - /?personnes       => Lister les personnes
+    - /?getDetails={id} => Details de la personne
+    - /?delete={id}     => Supprimer une personne
+    - /index.php
+
+        => Pour ajouter une personne
+        {
+            "add": {
+                "Nom":           "[Nom]",
+                "Prenom":        "[Prenom]",
+                "Email":         "[Email]",
+                "Tel":           "[Tel]",
+                "Datenaissance": "[Datenaissance]"
+            }
+        }
+
+        ###
+
+        => Pour modififer une personne
+        {
+            "update": {
+                "IdP":            "[IdP]",
+                "Nom":           "[Nom]",
+                "Prenom":        "[Prenom]",
+                "Email":         "[Email]",
+                "Tel":           "[Tel]",
+                "Datenaissance": "[Datenaissance]"
+            }
+        }
